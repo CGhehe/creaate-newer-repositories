@@ -1,18 +1,13 @@
 "use strict";
 
-function presentPet() {
-  console.log(
-    "My name is",
-    firstName,
-    "I have a",
-    animalType,
-    "called",
-    animalName
-  );
+function sayHello(firstName) {
+  console.log("Hello", firstName, "Hvordan går det?");
 }
 
-const firstName = "Peter";
-const animalType = "cat";
-const animalName = "Mandu";
+const myName = "Peter";
+sayHello(myName);
+sayHello("Noget andet end Peter");
 
-presentPet();
+sayHello();
+
+sayHello;

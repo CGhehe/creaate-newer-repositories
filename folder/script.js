@@ -37,3 +37,5 @@ let thirdBig2 = thirdBig.toUpperCase();
 let thirdSmall = fullName.substring(lastName + 2);
 let thirdSmall2 = thirdSmall.toLowerCase();
 console.log(thirdBig2 + thirdSmall2);
+
+console.log()

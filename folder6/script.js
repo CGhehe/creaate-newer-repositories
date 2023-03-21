@@ -66,7 +66,7 @@ schoolgrade: Number
 episodes: xD 
 appereances: number 
 firstAppereance: hehe 
-
+½
 
 
 

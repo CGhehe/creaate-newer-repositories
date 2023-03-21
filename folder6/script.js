@@ -18,3 +18,11 @@ const hermione = {
 console.log(harry);
 console.log(ron);
 console.log(hermione);
+
+console.log(harry.lastName);
+harry.firstName = "Potty";
+
+const chosenOne = harry;
+chosenOne.firstName = "(The chosen one)";
+
+console.log(harry);

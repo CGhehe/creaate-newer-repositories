@@ -50,23 +50,3 @@ function addStudent(student) {
 addStudent(harry);
 addStudent(ron);
 addStudent(hermione);
-
-
-//southpark:
-
-name: text
-image: URL
-occupation: student,teacher
-age: Number
-voicedBy: text
-gender: male, female
-catchphrase: text 
-haircolor: text
-schoolgrade: Number
-episodes: xD 
-appereances: number 
-firstAppereance: hehe 
-½
-
-
-

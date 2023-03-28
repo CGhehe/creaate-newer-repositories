@@ -1,5 +1,7 @@
 "use strict";
 
+// Load init app & init app function
+
 window.addEventListener("load", initApp);
 
 async function initApp() {

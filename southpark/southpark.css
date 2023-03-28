@@ -1,0 +1,111 @@
+#character {
+  margin-top: 75px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+#character div {
+  border-radius: 10px;
+}
+
+#dialog-character {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#column1 {
+  grid-column: 1;
+}
+
+#column2 {
+  grid-column: 2;
+}
+
+#column3 {
+  grid-column: 3;
+  justify-self: center;
+}
+
+p {
+  font-weight: bolder;
+  font-size: larger;
+  text-align: left;
+}
+
+p span {
+  font-weight: 5;
+  font-size: smaller;
+}
+
+@media (max-width: 1600px) {
+  #character {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 1400px) {
+  #character {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 800px) {
+  #character {
+    grid-template-columns: 1fr;
+  }
+}
+
+#character div {
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.731);
+}
+
+footer {
+  margin-top: 10px;
+}
+
+dialog {
+  width: 80vw;
+  background-color: #ffffffaa;
+
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#character img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+
+dialog img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+
+form {
+  text-align: center;
+}
+
+form button {
+  width: 20vw;
+}
+
+body {
+  background-image: url("South\ Park.jpg");
+  background-size: contain;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 69px;
+}

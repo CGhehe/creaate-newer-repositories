@@ -26,6 +26,7 @@ function showCharacter(character) {
   <div><p>Name:<span> ${character.name}</span></p>
   <p>Nickname:<span> ${character.nickname}</span></p>
   <p>Occupation:<span> ${character.occupation}</span></p>
+  <p>Catchphrase:<span> ${character.catchPhrase}</span></p>
   <img src=${character.image}/>
   </div>`;
 
